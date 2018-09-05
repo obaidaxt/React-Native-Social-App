@@ -1,0 +1,608 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 320px)
+and (max-width: 480px) {
+
+    body{
+        padding-top: 100px;
+    }
+
+    .nav-item:last-child{
+        margin: auto !important;
+    }
+
+    .nav-item{
+        margin-bottom: 5px;
+
+    }
+
+    .nav-item a:hover{
+        border-bottom: none;
+    }
+
+    .section_project_management img{
+        width: auto;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .section_project_management .title{
+        text-align: center;
+    }
+
+    .section_platform_image{
+        text-align: center;
+    }
+
+    .section_platform img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .section_platform h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .section_platform p{
+        text-align: center;
+    }
+
+    .section_communication .service-picker{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_communication h3{
+        margin-top: 20px;
+    }
+
+    .section_banner{
+
+        text-align: center;
+    }
+    .section_banner .banner_text_block h3{
+        font-size: 20px;
+
+    }
+
+    .section_banner .banner_text_block h5{
+    }
+
+    .section_banner input[type=email]{
+        width: 250px;
+    }
+
+    .section_banner small{
+        margin-top: 13px;
+        display: block;
+    }
+
+    .section_footer .footer_bottom .footer_logo{
+        margin-bottom: 20px;
+    }
+
+    .section_project_management h1{
+        font-size: 1.6rem;
+    }
+}
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 320px)
+and (max-width: 568px) {
+    body{
+        padding-top: 100px;
+    }
+
+    .nav-item:last-child{
+        margin: auto !important;
+    }
+
+    .nav-item{
+        margin-bottom: 5px;
+
+    }
+
+    .nav-item a:hover{
+        border-bottom: none;
+    }
+
+    .section_communication blockquote{
+        text-align: center;
+    }
+
+    .section_project_management .title{
+        text-align: center;
+    }
+
+
+    .section_platform_image{
+        text-align: center;
+    }
+
+    .section_platform img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .section_platform h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section_platform p{
+        text-align: center;
+    }
+    
+    .section_communication .service-picker{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_communication h3{
+        margin-top: 20px;
+    }
+
+    .section_banner{
+        text-align: center;
+    }
+
+    .section_banner form{
+        margin: auto;
+    }
+    .section_banner .banner_text_block h3{
+        font-size: 20px;
+
+    }
+
+    .section_banner .banner_text_block h5{
+    }
+
+    .section_banner input[type=email]{
+        width: 250px;
+    }
+
+    .section_banner small{
+        margin-top: 13px;
+        display: block;
+    }
+
+    .section_footer .footer_bottom .footer_logo{
+        margin-bottom: 20px;
+    }
+
+    .section_project_management h1{
+        font-size: 1.6rem;
+    }
+
+    .section_footer .footer_top img{
+        width: 50px;
+    }
+
+    .section_footer .footer_top ul{
+        font-size: 9px;
+    }
+
+    .footer_bottom > div{
+        margin: 0 0 0 12%;
+    }
+
+    .section_footer .footer_bottom h5{
+        width: 220px;
+    }
+
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 375px)
+and (max-width: 669px) {
+    body{
+        padding-top: 100px;
+    }
+
+    .nav-item:last-child{
+        margin: auto !important;
+    }
+
+    .nav-item{
+        margin-bottom: 5px;
+
+    }
+
+    .nav-item a:hover{
+        border-bottom: none;
+    }
+
+    .section_project_management img{
+        height: auto;
+        margin: 0 auto 10px;
+    }
+
+    .section_communication blockquote{
+        text-align: center;
+    }
+
+    .section_project_management .title{
+        text-align: center;
+    }
+
+    .section_project_management i{
+        
+    }
+
+    .section_platform_image{
+        text-align: center;
+    }
+
+    .section_platform img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .section_platform h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section_platform p{
+        text-align: center;
+    }
+
+    .section_platform i{
+    }
+
+    section:not(.canvas_section){
+        margin-bottom: 40px;
+    }
+
+    .section_communication .service-picker{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_communication h3{
+        margin-top: 20px;
+    }
+
+    .section_banner{
+        text-align: center;
+    }
+
+    .section_banner form{
+        margin: auto;
+    }
+    .section_banner .banner_text_block h3{
+        font-size: 20px;
+
+    }
+
+    .section_banner .banner_text_block h5{
+    }
+
+    .section_banner input[type=email]{
+        width: 250px;
+    }
+
+    .section_banner small{
+        margin-top: 13px;
+        display: block;
+    }
+
+    .section_footer .footer_bottom .footer_logo{
+        margin-bottom: 20px;
+    }
+
+    .section_project_management h1{
+        font-size: 1.6rem;
+    }
+
+    .footer_bottom > div{
+        /*margin: 0 0 0 25%;*/
+    }
+
+
+    .section_footer .footer_top img{
+        width: 50px;
+    }
+
+    .section_footer .footer_top ul{
+        font-size: 9px;
+    }
+
+    .section_footer .footer_bottom h5{
+        width: 220px;
+    }
+
+
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 414px)
+and (max-width: 736px) {
+    body{
+        padding-top: 100px;
+    }
+
+    .nav-item:last-child{
+        margin: auto !important;
+    }
+
+    .nav-item{
+        margin-bottom: 5px;
+
+    }
+
+    .nav-item a:hover{
+        border-bottom: none;
+    }
+
+    .section_project_management img{
+        height: auto;
+        margin: 0 auto 10px;
+    }
+
+    .section_communication blockquote{
+        text-align: center;
+    }
+
+    .section_project_management .title{
+        text-align: center;
+    }
+
+    .section_project_management i{
+    }
+
+    .section_platform_image{
+        text-align: center;
+    }
+
+    .section_platform img{
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .section_platform h3{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 6%;
+    }
+
+    .section_platform p{
+        text-align: center;
+    }
+
+    .section_platform i{
+        bottom: 3%;
+    }
+
+    .section_platform .info{
+        margin: auto;
+    }
+
+    section:not(.canvas_section){
+        margin-bottom: 40px;
+    }
+
+    .section_communication .service-picker{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_communication h3{
+        margin-top: 20px;
+    }
+
+    .section_banner{
+        text-align: center;
+    }
+
+    .section_banner form{
+        margin: auto;
+    }
+    .section_banner .banner_text_block h3{
+        font-size: 20px;
+
+    }
+
+    .section_banner .banner_text_block h5{
+    }
+
+    .section_banner input[type=email]{
+        width: 250px;
+    }
+
+    .section_banner small{
+        margin-top: 13px;
+        display: block;
+    }
+
+    .section_footer .footer_bottom .footer_logo{
+        margin-bottom: 20px;
+    }
+
+    .section_project_management h1{
+        font-size: 1.6rem;
+    }
+
+    .footer_bottom > div{
+        /*margin: 0 0 0 25%;*/
+    }
+
+    .section_footer .footer_bottom h5{
+        width: 220px;
+    }
+
+
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px) {
+    body{
+        padding-top: 100px;
+    }
+
+    .nav-item:last-child{
+        margin: auto !important;
+    }
+
+    .nav-item{
+        margin-bottom: 5px;
+
+    }
+
+    .nav-item a:hover{
+        border-bottom: none;
+    }
+
+    .section_project_management img{
+        height: auto;
+        margin: 0 auto 10px;
+    }
+
+    .section_communication blockquote{
+        text-align: center;
+    }
+
+    .section_project_management .title{
+        text-align: center;
+    }
+
+    .section_project_management i{
+        
+    }
+
+    .section_platform_image{
+        text-align: center;
+    }
+
+    .section_platform img{
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .section_platform h3{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 6%;
+    }
+
+    .section_platform p{
+        text-align: center;
+    }
+
+    .section_platform i{
+        bottom: 3%;
+    }
+
+    .section_platform .info{
+        margin: auto;
+    }
+
+    section:not(.canvas_section){
+        margin-bottom: 40px;
+    }
+
+    .section_communication .service-picker{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_communication h3{
+        margin-top: 20px;
+    }
+
+    .section_banner{
+        text-align: center;
+    }
+
+    .section_banner form{
+        margin: auto;
+    }
+    .section_banner .banner_text_block h3{
+        font-size: 20px;
+
+    }
+
+    .section_banner .banner_text_block h5{
+    }
+
+    .section_banner input[type=email]{
+        width: 250px;
+    }
+
+    .section_banner small{
+        margin-top: 13px;
+        display: block;
+    }
+
+    .section_footer .footer_bottom .footer_logo{
+        margin-bottom: 20px;
+    }
+
+    .section_project_management h1{
+        font-size: 1.6rem;
+    }
+
+    .footer_bottom > div{
+        /*margin: 0 0 0 25%;*/
+    }
+
+    .section_footer .footer_bottom h5{
+        width: 220px;
+    }
+
+    .navbar-nav{
+        background: #ddd;
+    }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 834px)
+and (max-width: 1112px) {
+
+    .section_platform h3, .section_platform p{
+        margin-left: 15%;
+    }
+
+    .navbar-nav{
+        background: #f4eff6;
+    }
+
+}
+
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 1024px)
+and (max-width: 1366px) {
+    .navbar-nav{
+        background: #f4eff6;
+    }
+
+    .section_banner form label{
+        width: 300px;
+    }
+}
